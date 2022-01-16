@@ -1,0 +1,10 @@
+{
+  "npmScope": "pnpm-nx-project",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "tsconfig.base.json": "*"
+  },
+  "cli": {
+    "packageManager": "pnpm"
+  }
+}

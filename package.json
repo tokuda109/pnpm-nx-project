@@ -1,0 +1,22 @@
+{
+  "name": "pnpm-nx-project",
+  "private": true,
+  "engines": {
+    "node": "16",
+    "pnpm": "6"
+  },
+  "volta": {
+    "node": "16.13.1"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@nrwl/cli": "13.4.5",
+    "@nrwl/tao": "13.4.5",
+    "@nrwl/workspace": "13.4.5",
+    "@types/node": "16.11.7",
+    "pnpm": "6.25.1",
+    "typescript": "4.5.4"
+  }
+}
